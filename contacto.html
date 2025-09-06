@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Eduard Guaba & Asociados</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: var(--dark-blue);
+            color: var(--f5f5f5);
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .content-container {
+            max-width: 800px;
+            padding: 2rem;
+            text-align: center;
+            background-color: var(--container-bg);
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        a {
+            color: var(--light-gold);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Agendar una Cita</h1>
+        <p>Por favor, complete el siguiente formulario para agendar su cita. Nos pondremos en contacto con usted a la brevedad posible.</p>
+        
+        <form class="mt-8 text-left">
+            <div class="mb-4">
+                <label for="name" class="block text-light-gray text-sm font-bold mb-2">Nombre:</label>
+                <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Su nombre completo">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-light-gray text-sm font-bold mb-2">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="su.correo@ejemplo.com">
+            </div>
+            <div class="mb-6">
+                <label for="comments" class="block text-light-gray text-sm font-bold mb-2">Comentarios:</label>
+                <textarea id="comments" name="comments" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Describa brevemente el motivo de su consulta"></textarea>
+            </div>
+            <div class="flex items-center justify-center">
+                <button type="submit" class="bg-gold-gradient text-gray-900 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Enviar Solicitud
+                </button>
+            </div>
+        </form>
+
+        <div class="mt-8">
+            <h2 class="text-light-gold text-xl font-bold mb-2">Horario de Atención:</h2>
+            <p class="text-off-white">Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+            <p class="text-off-white">Teléfono: 809-360-3393</p>
+            <p class="text-off-white">Email: eduardguaba@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>

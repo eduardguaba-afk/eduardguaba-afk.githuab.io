@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta-etiquetas para SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eduard Guaba & Asociados - Firma de abogados de alto nivel en Santo Domingo, República Dominicana. Especialistas en derecho administrativo, derecho penal, litigación estratégica, asesoría a instituciones públicas, compliance y contratación pública.">
+    <meta name="keywords" content="abogados, firma legal, derecho administrativo, derecho penal, contratación pública, litigación, asesoría jurídica, Eduard Guaba">
+    <title>Eduard Guaba & Asociados | Asesoría Jurídica Integral</title>
+    
+    <!-- Librerías y Fuentes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark-blue">
+
+    <!-- Cabecera (Header) -->
+    <header class="relative h-screen flex flex-col items-center justify-center p-6 text-white overflow-hidden">
+        <div class="absolute inset-0 hero-background"></div>
+        <div class="absolute inset-0 bg-black opacity-60 z-10"></div>
+        
+        <!-- Navegación -->
+        <nav class="fixed top-0 left-0 right-0 p-6 z-20 bg-black bg-opacity-70 transition-colors duration-300">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="md:hidden">
+                    <button class="text-white text-3xl focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="hidden md:flex space-x-6 text-lg font-semibold">
+                    <a href="quienes_somos.html" class="hover:text-gold transition duration-300">Quiénes somos</a>
+                    <a href="#services" class="hover:text-gold transition duration-300">Servicios</a>
+                                        <a href="blog_noticias.html" class="hover:text-gold transition duration-300">Blog / Noticias legales</a>
+                    <a href="contacto.html" class="hover:text-gold transition duration-300">Contacto</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Contenido principal -->
+        <div class="relative z-10 text-center fade-in" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-wide mb-2">EDUARD GUABA & ASOCIADOS</h1>
+            <p class="text-lg md:text-2xl font-light">ASESORÍA JURÍDICA INTEGRAL</p>
+        </div>
+        
+        <!-- Balanza de la justicia -->
+        <svg class="justice-scale" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <line x1="10" y1="80" x2="90" y2="80" />
+            <line x1="50" y1="20" x2="50" y2="80" />
+            <circle cx="25" cy="80" r="10" />
+            <circle cx="75" cy="80" r="10" />
+            <line x1="25" y1="20" x2="25" y2="80" />
+            <line x1="75" y1="20" x2="75" y2="80" />
+            <line x1="25" y1="20" x2="75" y1="20" />
+        </svg>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16 uppercase text-gold" data-aos="fade-down">Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Tarjeta 1: Derecho Administrativo y Contencioso -->
+                <div class="service-card p-8 text-center fade-in">
+                    <div class="text-gold text-5xl mb-6">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Derecho Administrativo y Contencioso</h3>
+                    <p class="text-sm text-gray-400">Brindamos asesoría en temas legales y administrativos.</p>
+                </div>
+                <!-- Tarjeta 2: Derecho Penal y Litigación Estratégica -->
+                <div class="service-card p-8 text-center fade-in">
+                    <div class="text-gold text-5xl mb-6">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Derecho Penal y Litigación Estratégica</h3>
+                    <p class="text-sm text-gray-400">Representación legal en casos complejos de litigio.</p>
+                </div>
+                <!-- Tarjeta 3: Asesoría a Instituciones Públicas -->
+                <div class="service-card p-8 text-center fade-in">
+                    <div class="text-gold text-5xl mb-6">
+                        <i class="fas fa-handshake"></i> <!-- Icono de handshake para Asesoría -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Asesoría a Instituciones Públicas</h3>
+                    <p class="text-sm text-gray-400">Apoyo legal a entidades gubernamentales y públicas.</p>
+                </div>
+                <!-- Tarjeta 4: Compliance y Contratación Pública -->
+                <div class="service-card p-8 text-center fade-in">
+                    <div class="text-gold text-5xl mb-6">
+                        <i class="fas fa-file-signature"></i> <!-- Icono de file-signature para Contratación -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Compliance y Contratación Pública</h3>
+                    <p class="text-sm text-gray-400">Especialistas en cumplimiento y contratos del estado.</p>
+                </div>
+                <!-- Tarjeta 5: Derecho Energético -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-lightbulb"></i> <!-- Changed icon to lightbulb for energy -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Derecho Energético</h3>
+                    <p class="text-sm text-gray-400">Asesoría legal en el sector energético y regulaciones.</p>
+                </div>
+                <!-- Tarjeta 6: Responsabilidad patrimonial del Estado -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-university"></i> <!-- Placeholder icon -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Responsabilidad patrimonial del Estado</h3>
+                    <p class="text-sm text-gray-400">Asesoría y representación en reclamaciones por responsabilidad patrimonial del Estado.</p>
+                </div>
+                <!-- Tarjeta 7: Contratos y convenios -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-file-contract"></i> <!-- Placeholder icon -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Contratos y convenios</h3>
+                    <p class="text-sm text-gray-400">Asesoría en la elaboración y revisión de contratos y convenios.</p>
+                </div>
+                <!-- Tarjeta 8: Penal económico y administrativo -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="600">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-money-bill-alt"></i> <!-- Placeholder icon -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Penal económico y administrativo</h3>
+                    <p class="text-sm text-gray-400">Defensa en casos de delitos económicos y administrativos.</p>
+                </div>
+                <!-- Tarjeta 9: Nulidad de actos y contratos -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="700">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-times-circle"></i> <!-- Placeholder icon -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Nulidad de actos y contratos</h3>
+                    <p class="text-sm text-gray-400">Procesos de nulidad de actos administrativos y contratos.</p>
+                </div>
+                <!-- Tarjeta 10: Amparos y tutela de derechos fundamentales -->
+                <div class="service-card p-8 text-center fade-in" data-aos="fade-up" data-aos-delay="800">
+                    <div class="text-gold text-5xl mb-6 service-icon">
+                        <i class="fas fa-hand-holding-heart"></i> <!-- Placeholder icon -->
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Amparos y tutela de derechos fundamentales</h3>
+                    <p class="text-sm text-gray-400">Acciones de amparo y tutela para la protección de derechos fundamentales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Llamada a la Acción (CTA) -->
+    <section class="py-20 text-center">
+        <a href="contacto.html" class="cta-button inline-block px-10 py-5 rounded-full text-lg font-bold text-gray-900 bg-gold-gradient shadow-xl transform hover:scale-105 transition duration-300 fade-in" data-aos="zoom-in">
+            Agendar una cita
+        </a>
+    </section>
+
+    </header>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/18093603393" class="whatsapp-float" target="_blank" data-aos="zoom-in" data-aos-delay="500">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center text-gray-400">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2025 Eduard Guaba & Asociados. Todos los derechos reservados.</p>
+            <p class="mt-2">
+                <a href="https://wa.me/18093603393" target="_blank" class="hover:text-gold transition duration-300">Contáctanos por WhatsApp</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="main.js"></script>
+
+</body>
+</html>
